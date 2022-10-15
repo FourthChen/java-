@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常见事件</title>
+    <script>
+        //1.失去焦点事件
+        //一般 用于表单校验
+        // document.getElementById("username").onblur=function (){
+        //     alert("失去焦点了")
+        // }
+        //2.加载完成 事件 onload
+        window.onload=function (){
+            // document.getElementById("username").onblur=function (){
+            //     alert("失去焦点了")
+            // }
+            // //3.绑定鼠标点击事件
+            // document.getElementById("username").onmousedown=function (){
+            //     alert("鼠标点击了")
+            // }
+            // //4.绑定鼠标移动到元素之上事件
+            // document.getElementById("username").onmouseover=function (){
+            //     alert("鼠标来了")
+            //
+            // }
+            // document.getElementById("form").onsubmit=function (){
+            //     //对用户名格式进行校验
+            //     var flag=true;
+            //
+            //     return flag
+            // }
+
+        }
+        function checkform(){
+            return false
+        }
+    </script>
+</head>
+<body>
+<form action="#" id="form">
+
+<input type="text" id="username" onclick="chenkform()">
+<select name="" id="city">
+    <option value="">--请选择--</option>
+    <option value="">北京</option>
+    <option value="">上海</option>
+    <option value="">天津</option>
+    <option value="">西安</option>
+</select>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

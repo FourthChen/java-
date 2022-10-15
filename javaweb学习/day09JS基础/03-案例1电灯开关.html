@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <img id="light" src="img/off.gif" alt="">
+    <script>
+        /*
+        分析：
+            1.获取图片对象
+            2.绑定单机事件
+            3.每次点击切换图片
+         */
+        //1.获取图片对象
+        var light=document.getElementById("light")
+
+        var flag=false //灯灭
+        // 2.绑定单机事件
+        light.onclick=function (){
+            if(flag){
+                light.src="img/off.gif"
+                flag=false
+            }else {
+                light.src="img/on.gif"
+                flag=true
+            }
+
+        }
+    </script>
+</body>
+</html>

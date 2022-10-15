@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mavenProjects.iml" filepath="$PROJECT_DIR$/mavenProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_parent/maven_parent.iml" filepath="$PROJECT_DIR$/maven_parent/maven_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/son/son.iml" filepath="$PROJECT_DIR$/son/son.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmweb/ssmweb.iml" filepath="$PROJECT_DIR$/ssmweb/ssmweb.iml" />
+    </modules>
+  </component>
+</project>

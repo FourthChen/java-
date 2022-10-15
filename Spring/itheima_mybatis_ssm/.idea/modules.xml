@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/Tmall_SSM.iml" filepath="$PROJECT_DIR$/src/Tmall_SSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itheima_mybatis_ssm.iml" filepath="$PROJECT_DIR$/itheima_mybatis_ssm.iml" />
+    </modules>
+  </component>
+</project>

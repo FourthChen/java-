@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window对象</title>
+
+</head>
+<body>
+    <input id="openBtn" type="button" value="打开窗口">
+    <input id="closeBtn" type="button" value="关闭窗口">
+    <script>
+        /*
+        Window 窗口对象
+            1.创建
+                1.alert()  警告框
+                2.confirm() 确认取消对话框
+                    若点击确定，则返回true
+                    若点击取消，则返回false
+                3.prompt 用户输入框
+                    返回值是用户返回的值
+                4.open() 打开一个新的浏览器窗口
+                5.close() 关闭浏览器窗口
+                6.setTimeout() 定时器
+                    参数：
+                        1.js代码或者方法对象
+                        2.毫秒值
+                7.clearTimeout() 取消定时器
+                8.setInterval() 循环定时器，按照指定的周期来调用函数
+                9.closeInerval()
+            2.方法
+            3.属性
+                1.获取其他BOM对象
+            4.特点
+                *Window对象不需要创建可以直接使用，window.方法名()
+         */
+        // alert("dadadaddada")
+        // window.alert("jajajaja")
+        // var flag=confirm("您确定要取消吗？")
+        // if (flag){
+        //     alert("欢迎再次光临")
+        // }else{
+        //     alert("手别抖")
+        // }
+        //
+        // var pro=prompt("请输入用户名：")
+        // alert(pro)
+        //
+
+        // var openBtn=document.getElementById("openBtn")
+        // openBtn.onclick=function (){
+        //     //打开新窗口
+        //     open("http://www.baidu.com")
+        // }
+        // var closeBtn=document.getElementById("closeBtn")
+        // closeBtn.onclick=function (){
+        //     //关闭新窗口
+        //     close()
+        // }
+
+        //一次性的定时器
+        // setTimeout(fun,3000)
+
+        //循环定时器
+        // setInterval(fun,2000)
+        // function fun(){
+        //     alert("boom.......")
+        // }
+
+        //获取history
+        // var h1=window.history
+        // var h2=history
+        // alert(h1)
+        // alert(h2)
+        // window.document.getElementById("")
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.mapper.AccountMapper">
+    <!--MyBatis映射文件-->
+
+    <!--保存-->
+    <insert id="save" parameterType="account">
+        insert into account values(#{id},#{name},#{money})
+    </insert>
+    <!--查询所有-->
+    <select id="findAll" resultType="account">
+        select * from account
+    </select>
+</mapper>

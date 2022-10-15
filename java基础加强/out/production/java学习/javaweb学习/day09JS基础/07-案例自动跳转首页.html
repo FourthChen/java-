@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动跳转首页</title>
+    <style>
+        p{
+            text-align: center;
+        }
+        span{
+            color: red;
+        }
+    </style>
+
+    <script>
+        /*
+        分析：
+            1.显示页面效果<p>
+            2.秒数的倒计时实现
+         */
+        var second=5
+        var time=document.getElementById("time")
+        function showtime(){
+            second--
+
+            if (second<=0){
+                location.href="https://www.baidu.com"
+            }
+            time.innerHTML=second+""
+        }
+        //设置定时器
+        window.setInterval(showtime,1000)
+
+
+    </script>
+</head>
+<body>
+    <p><span id="time">5</span>秒之后，自动跳转到首页....</p>
+</body>
+</html>

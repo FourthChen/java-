@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for day13_Tomcat" enabled="true">
+        <sourceOutputDir name="../../day13_Tomcat/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../day13_Tomcat/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day13_Tomcat" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day13_Tomcat" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
